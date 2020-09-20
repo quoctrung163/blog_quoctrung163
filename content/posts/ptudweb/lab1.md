@@ -12,14 +12,17 @@ showFullContent = false
 
 Câu 1: DNS là viết tắt của các chữ nào?
 - Domain Name System: Hệ thống tên miền hay Hệ thống phân giải (resolve) tên miền.
+{{< linebreak >}}
 
 Câu 2: DNS dùng để làm gì?
 - DNS dùng để lưu trữ các tên miền (domain name), cung cấp dịch vụ chuyển đổi từ địa chỉ dạng chuỗi(domain name) sang dạng số (IP) và ngược lại.
+{{< linebreak >}}
 
 Câu 3: Hãy truy cập 3 trang web mà không cần dùng tới tên miền (domain name)?
 - {{< figure src="/img/ptudweb/lab1/lab1_1.png" title="lab1_1" >}}
 - {{< figure src="/img/ptudweb/lab1/lab1_2.png" title="lab1_2" >}}
 - {{< figure src="/img/ptudweb/lab1/lab1_3.png" title="lab1_3" >}}
+{{< linebreak >}}
 
 Câu 4: Tên miền cấp 1, cấp 2, cấp 3 là gì? cho ví dụ mỗi loại?
 - Tên miền cấp 1: 
@@ -33,18 +36,23 @@ Câu 4: Tên miền cấp 1, cấp 2, cấp 3 là gì? cho ví dụ mỗi loại
 - Tên miền cấp 3:
   - là kết hợp giữa tên miền cấp 2 và cấp 1.
   - vd: .com.vn, .edu.uk
+{{< linebreak >}}
 
 Câu 5: Tên miền quốc tế là gì? cho 3 ví dụ?
 – tên miền quốc tế: do Trung tâm quản lý tên miền quốc tế cấp
 - vd: .com, .net, .biz, .info, .org
+{{< linebreak >}}
 
 Câu 6: Tên miền “nội địa” hay quốc gia là gì? cho 3 ví dụ?
 - tên miền "nội địa" do trung quản lý tên miền của mỗi quốc gia quản lý
 - vd: .vn, .com.vn, edu.vn
+{{< linebreak >}}
 
 Câu 7: DNS server addresses trong cạc mạng máy tính dùng để làm gì? Tại sao lại có Preferred DNS server/Alternate DNS server?
 - Để thiết lập địa chỉ của máy phân giải tên miền. Một  cái chính và một cái dự phòng.
+{{< linebreak >}}
 
 Câu 8: Trong cạc mạng, không điền thông tin trong DNS server, có truy cập được trang web không? chứng minh?
 - Cạc mạng sẽ tự động chuyển sang chế độ lấy DNS server address tự động
 - Nếu cố tình gán một DNS server address không tồn tại thì không thể truy cập trang web
+{{< linebreak >}}
