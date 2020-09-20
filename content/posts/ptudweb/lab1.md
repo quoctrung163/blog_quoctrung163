@@ -19,6 +19,9 @@ Câu 2: DNS dùng để làm gì?
 Câu 3: Hãy truy cập 3 trang web mà không cần dùng tới tên miền (domain name)?
 - {{< figure src="/img/ptudweb/lab1/lab1_1.png" title="lab1_1" >}}
 - {{< figure src="/img/ptudweb/lab1/lab1_2.png" title="lab1_2" >}}
-- {{< figure src="/img/ptudweb/lab1/lab1_3.png" title="lab1_2" >}}
+- {{< figure src="/img/ptudweb/lab1/lab1_3.png" title="lab1_3" >}}
 
-Câu 4:
+Câu 4: Tên miền cấp 1, cấp 2, cấp 3 là gì? cho ví dụ mỗi loại?
+- Tên miền cấp 1: 
+  - là tên miền quốc tế, dùng chung cho nhiều quốc gia, đại diện cho một lĩnh vực, ngành nghề hay khu vực địa lý
+  - vd: .com, .net, ...
