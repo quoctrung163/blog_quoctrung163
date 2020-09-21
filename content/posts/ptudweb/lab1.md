@@ -1,6 +1,6 @@
 +++
 title = "Lab 1. Hiểu về DNS"
-date = "2020-09-20"
+date = "2020-09-17"
 author = "quoctrung163"
 authorTwitter = "quoctrung163" #do not include @
 cover = "" #cover image
@@ -56,3 +56,15 @@ Câu 8: Trong cạc mạng, không điền thông tin trong DNS server, có truy
 - Cạc mạng sẽ tự động chuyển sang chế độ lấy DNS server address tự động
 - Nếu cố tình gán một DNS server address không tồn tại thì không thể truy cập trang web
 {{< linebreak >}}
+
+Câu 9: “8.8.8.8” là gì?
+- là DNS server address của google
+{{< linebreak >}}
+
+Câu 10: Sau khi người dùng gõ vào trình duyệt https://www.w3schools.com/, gõ phím Enter.Viết lại quá trình một trình duyệt lấy trang web về?
+- Dựa vào thông tin DNS server address, gửi một gói tin để phân giải tên trang web sang IP
+- Gửi một gói tin yêu cầu nội dung trang web (index.html) tới Web server
+- Web server gửi nội dung trang web về cho máy client
+- Máy client thông dịch (biên dịch) mã nguồn của trang web (HTML, CSS, JavaScript) rồi hiển thị lên trình duyệt
+
+Câu 11: Thử cấu hình DNS server: sửa tập tin hosts để khi người dùng truy cập trang tuoitre.vn, nội dung trình duyệt sẽ hiển thị thông báo lỗi “không thể truy cập được trang tuoitre.vn”
