@@ -44,6 +44,9 @@ enableInlineShortcodes = true
   # it's set to `true` by default
   # oneHeadingSize = false
 
+  # use custom css file 
+  css = ["css/custom.css"]
+
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
