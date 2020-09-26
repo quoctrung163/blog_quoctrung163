@@ -9,7 +9,7 @@ keywords = ["", ""]
 description = ""
 showFullContent = false
 +++
-I. Types by Inference
+#### I. Types by Inference
 - Typescript biết Javascript sẽ tạo ra các type trong cho nhiều trường hợp.
 
 - Ví dụ trong tạo biến và gán nó vào giá trị cụ thể của JS, Typescript sẽ sử dụng giá trị đó như là type.
@@ -23,7 +23,7 @@ let helloWorld = "Hello World";
 
 {{< linebreak >}}
 
-II. Defining Types
+#### II. Defining Types
 - Bạn có thể sử dụng nhiều design pattern trong JS. Tuy nhiên, có vài design pattern làm nó trở nên khó bởi vì JS tự động sinh ra type (ví dụ patterns dùng cho dynamic programming).
 
 - Để giải quyết trường hợp này, Typescript có hỗ trợ một số mở rộng cho Javascript, nó cung cấp cho bạn nói với Typescript types nên là gì.
@@ -106,7 +106,7 @@ function deleteUser(user: User) {
 
 - Có 2 cú pháp để building types: `Interface và Types`. Bạn nên sử dụng `interface`. Sử dụng `type` khi cần các tính năng cụ thể.
 
-III. Composing Types
+#### III. Composing Types
 - Với Typescript, bạn có thể tạo các type phức tạp bằng cách kết hợp những type đơn giản.
 
 - Có 2 cách phổ biến để tạo Composing Types là `Unions` và `Generics`.
@@ -158,7 +158,7 @@ III. Composing Types
   // => Argument of type 'number' is not assignable to parameter of type 'string'.
   ```
 
-IV. Structural Type System
+#### IV. Structural Type System
 - One of TS's core principles (nguyên tắc cốt lõi) là tập trung kiểm tra `shape that value have`. Điều này được gọi là `duck typing` or `structural typing`.
 
 - In a structural type, if 2 objects have the same shape, they are considered to be of the same type.

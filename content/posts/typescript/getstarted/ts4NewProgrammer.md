@@ -10,7 +10,7 @@ description = ""
 showFullContent = false
 +++
 
-I. Những cái ngớ ngẫn của Javascript {{< emoji ":cat:" >}}
+#### I. Những cái ngớ ngẫn của Javascript {{< emoji ":cat:" >}}
 - Toán tử == ép kiểu các đối số của nó => hành vi ko mong muốn.
 ```js
 if ("" == 0) {
@@ -33,7 +33,7 @@ const area = obj.width * obj.cao;
 - Đối với ứng dụng nhỏ thì có thể dễ quản lý nhưng khi ứng dụng to thì sẽ gặp những lỗi không mong muốn.
 
 {{< linebreak >}}
-II. TypeScript: A static type checker
+#### II. TypeScript: A static type checker
 - Typescript xác định lỗi mà không cần chạy chương trình
 
 - ex: 
@@ -43,5 +43,5 @@ const area = obj.width * obj.cao;
 // => Property 'cao' does not exist on type '{ width: number; height: number; }'. Did you mean 'height'?
 ```
 
-III. Là Typed Superset của Javascript
+#### III. Là Typed Superset của Javascript
 - TypeScript là ngôn ngữ tập siêu của Javascript nên cú pháp của JS sẽ hoàn toàn hợp lệ đối với TS

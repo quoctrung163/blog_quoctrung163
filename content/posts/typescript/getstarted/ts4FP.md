@@ -4,13 +4,13 @@ date = "2020-09-24"
 author = "quoctrung163"
 authorTwitter = "quoctrung163" #do not include @
 cover = ""
-tags = ["ts", "getstated"]
+tags = ["ts", "getstarted"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
 +++
 
-I. Types
+#### I. Types
 - Primitive types:
   - number
   - string

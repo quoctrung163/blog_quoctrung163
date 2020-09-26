@@ -4,13 +4,13 @@ date = "2020-09-19"
 author = "quotrung163"
 authorTwitter = "quotrung163" #do not include @
 cover = ""
-tags = ["lab6", "hosting", "ptudweb"]
+tags = ["lab", "hosting", "ptudweb"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
 +++
 
-I. Tìm hiểu về các loại hosting sau? Ưu và nhược điểm của mỗi loại?
+#### I. Tìm hiểu về các loại hosting sau? Ưu và nhược điểm của mỗi loại?
 
 – Shared Hosting:
   - là giải pháp cho chủ website với lượng truy cập thấp

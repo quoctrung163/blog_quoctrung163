@@ -4,13 +4,13 @@ date = "2020-09-18"
 author = "quoctrung163"
 authorTwitter = "quoctrung163" #do not include @
 cover = ""
-tags = ["ptudweb", "lab4", "web_server"]
+tags = ["ptudweb", "lab", "web_server"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
 +++
 
-I. Web server là gì?
+#### I. Web server là gì?
 - "Web server" có thể là phần cứng hoặc phần mềm, hoặc cả hai.
 
 - Ở khía cạnh phần cứng: 
@@ -23,13 +23,13 @@ I. Web server là gì?
   - Một HTTP server là một phần mềm hiểu được các URL (các địa chỉ web) và HTTP (giao thức trình duyệt để xem các trang web).
 {{< linebreak >}}
 
-II. Mô hình hoạt động
+#### II. Mô hình hoạt động
 {{< figure src="/img/ptudweb/lab4/web-server.png" title="webserver" >}}
 - Ở mức cơ bản nhất, bất cứ khi nào một trình duyệt cần một file được lưu trữ trên một web server, trình duyệt request (yêu cầu) file đó thông qua HTTP. 
 - Khi một request tới đúng web server (phần cứng), HTTP server (phần mềm) gửi tài liệu được yêu cầu trở lại, cũng thông qua HTTP.
 {{< linebreak >}}
 
-III. Tổng Kết
+#### III. Tổng Kết
 - Để xuất bản 1 website cần phải tạo 1 static website or dynamic website.
 
 - static website: 
