@@ -10,7 +10,7 @@ description = ""
 showFullContent = false
 +++
 
-I. Rethinking Types
+### I. Rethinking Types
 - Typescript understanding of the `type` có đôi chút khác biệt với C# và Java qua các điểm sau.
 
 - Types as Sets:
@@ -70,7 +70,7 @@ I. Rethinking Types
 
   - Do vậy nên nó hợp lệ :D
 
-II. Identical Types
+### II. Identical Types
 - Another surprise :v
 
 ```ts
@@ -88,4 +88,4 @@ class Golfer {
 // No error?
 let w: Car = new Golfer();
 ```
--
+- Again, this isn't an error because the structures of these classes are they same. :D

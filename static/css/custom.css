@@ -1,3 +1,18 @@
-body {
-  background-color: #1C1F26 !important;
+ul {
+  list-style-type: none !important;
+  margin-left: 0rem !important;
+}
+
+ul ul {
+  list-style-type: disc !important;
+  margin-left: 3rem !important;
+}
+
+body.dark-theme {
+  --background: #1C1F26 !important;
+  --background-secondary: #3b3d42;
+  --header: #1C1F26;
+  --color: #dbdbdb;
+  --color-secondary: #7482a3;
+  --border-color: rgb(35, 40, 49);
 }

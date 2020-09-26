@@ -11,23 +11,24 @@ showFullContent = false
 +++
 
 Câu 1: DNS là viết tắt của các chữ nào?
-- Domain Name System: Hệ thống tên miền hay Hệ thống phân giải (resolve) tên miền.
-{{< linebreak >}}
+* Domain Name System: Hệ thống tên miền hay Hệ thống phân giải (resolve) tên miền.
+  {{< linebreak >}}
 
 Câu 2: DNS dùng để làm gì?
-- DNS dùng để lưu trữ các tên miền (domain name), cung cấp dịch vụ chuyển đổi từ địa chỉ dạng chuỗi(domain name) sang dạng số (IP) và ngược lại.
+* DNS dùng để lưu trữ các tên miền (domain name), cung cấp dịch vụ chuyển đổi từ địa chỉ dạng chuỗi(domain name) sang dạng số (IP) và ngược lại.
+
 {{< linebreak >}}
 
 Câu 3: Hãy truy cập 3 trang web mà không cần dùng tới tên miền (domain name)?
-- {{< figure src="/img/ptudweb/lab1/lab1_1.png" title="lab1_1" >}}
-- {{< figure src="/img/ptudweb/lab1/lab1_2.png" title="lab1_2" >}}
-- {{< figure src="/img/ptudweb/lab1/lab1_3.png" title="lab1_3" >}}
+  * {{< figure src="/img/ptudweb/lab1/lab1_1.png" title="lab1_1" >}}
+  * {{< figure src="/img/ptudweb/lab1/lab1_2.png" title="lab1_2" >}}
+  * {{< figure src="/img/ptudweb/lab1/lab1_3.png" title="lab1_3" >}}
 {{< linebreak >}}
 
 Câu 4: Tên miền cấp 1, cấp 2, cấp 3 là gì? cho ví dụ mỗi loại?
-- Tên miền cấp 1: 
-  - là tên miền quốc tế, dùng chung cho nhiều quốc gia, đại diện cho một lĩnh vực, ngành nghề hay khu vực địa lý
-  - vd: .com, .net, ...
+  * Tên miền cấp 1: 
+    - là tên miền quốc tế, dùng chung cho nhiều quốc gia, đại diện cho một lĩnh vực, ngành nghề hay khu vực địa lý
+  vd: .com, .net, ...
 
 - Tên miền cấp 2:
   - là tên miền quốc gia, thông thường mỗi quốc gia đều có tên miền riêng
