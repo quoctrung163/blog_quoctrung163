@@ -106,7 +106,7 @@ let c: Color = Color.Green;
 
 - Vd: Red :`0`, Green: `1`, Blue = `2`
 
-- you also can change value: :D
+- you can change value: :D
 
 ```ts
 enum Color {
@@ -119,8 +119,33 @@ let c: Color = Color.Green;
 console.log(c); // => 2
 ```
 
-- Bạn có thể lấy propertyName
+- Bạn cũng có thể lấy propertyName
 
 ```ts
+enum Color {
+  Red,
+  Green,
+  Blue
+};
 
+let colorName: string = Color[2];
+
+console.log(colorName); // => Green
 ```
+
+{{< linebreak >}}
+
+### Unknown
+- Chúng ta có thể cần theo dõi type variables mà ta không biết khi viết app. These values come from `dynamic content` - from the `user` - or we may want to intentionally(cố ý) accept all values in your API.
+
+- In the case, we want to provide a type that tells the compiler and future readers that this varible could be (có thể là) anything, so we give it the `unknown` type.
+
+```ts
+let notSure: unknown = 4;
+notSure = "maybe a string instead";
+
+// OK, definitely a boolean
+notSure = false;
+```
+
+
