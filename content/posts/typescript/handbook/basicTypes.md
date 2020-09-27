@@ -56,13 +56,13 @@ I'll be ${age + 1} years old next month.`;
 
 - Array types trong TS có thể viết bằng 2 cách.
 
-- Cách 1: bạn sử dụng các type sau `[]` để chứng tỏ đó là array of element type
+  - 1: bạn sử dụng các type sau `[]` để chứng tỏ đó là array of element type
 
-```ts
-let list: number[] = [1, 2, 3];
-```
+  ```ts
+  let list: number[] = [1, 2, 3];
+  ```
 
-- Cách 2: là sử dụng generic array type, `Array<elemType>`:
+  - 2: là sử dụng generic array type, `Array<elemType>`:
 
 ```ts
 let list: Array<number> = [1, 2, 3];
@@ -148,4 +148,154 @@ notSure = "maybe a string instead";
 notSure = false;
 ```
 
+- Nếu bạn có variable với type là `unknown`, bạn có thể làm cho nó hẹp lại thành một cái gì đó cụ thể hơn bằng cách `typeof` check, comparison checks, or more advanced type guards that will be discussed in a later chapter:
 
+```ts
+declare const maybe: unknown;
+// 'maybe' could be a string, object, boolean, undefined, or other types
+const aNumber: number = maybe;
+
+`Type 'unkown' is not assignable to type 'number'`
+
+if (maybe === true) {
+  // Typescript knows that maybe is a boolean now
+  const aBoolean: boolean = maybe;
+  // so it cannot be a string
+  const aString: string = maybe;
+  `Type 'boolean' is not assignale to type 'string'`.
+}
+
+if (typeof maybe === "string") {
+  // Typescript knows that maybe is a string
+  const aString: string = maybe;
+  // So, it cannot be a boolean
+  const aBoolean: boolean = maybe;
+  `Type 'string' is not assignable to type 'boolean'.`
+}
+```
+
+{{< linebreak >}}
+
+### Any
+- `any` type :v
+
+```ts
+declare function getValue(key: string): any;
+// OK return value of getValue is not checked
+const str: string = getValue("mystring");
+```
+- the `any` type is powerful way to work with existing JS, allowing you to gradually opt-in and opt-out of type checking during compilation.
+
+- Không như `unknown`, `any` cho phép bạn truy cập các thuộc tính tuỳ ý, ngay cả những thứ không tồn tại.
+
+```ts
+let looselyTyped: any = 4;
+// OK, ifItExists might exist at runtime
+looselyTyped.ifItExists();
+looselyTyped.toFixed();
+
+let strictlyTyped: unknown = 4;
+strictlyTyped.toFixed();
+`Object is of type 'unknown'.`
+```
+
+- The `any` will continue to prepagate throught your object:
+
+```ts
+let looselyTyped: any = {};
+let d = looselyTyped.a.b.c.d;
+```
+
+{{< linebreak >}}
+
+### Void
+- like c++ or other programming, it return null or not return and just display some variable
+
+```ts
+function warnUser(): void {
+  console.log("this is my warning message");
+}
+```
+
+{{< linebreak >}}
+
+### Null and Undefined
+- like any programming like c#, java, c++, etc.. :v
+
+```ts
+let u: undefined = undefined;
+let n: null = null;
+```
+
+{{< linebreak >}}
+
+### Never
+- `never` type đại diện giá trị type value không bao giờ xảy ra.
+
+- for example `never` is the return type for a function expression or an arrow function expression that always throws an exception (ném 1 biểu thức) or never return.
+
+- even `any` isn't assign to never
+
+```ts
+// function returning must not have a reachable end p
+function error(message: string): never {
+  throw new Error(message);
+}
+
+// Inferred return type is never
+function fail() {
+  return error("Something failed");
+}
+
+// function returning never must not have a reachable end p
+function infiniteLoop(): never {
+  while(true) {}
+}
+```
+
+### Object
+- Object là type đại diện cho `none-primitive type` (không nguyên thuỷ).
+
+- Với `object` type, APIs như `Object.create` có thể đại diện tốt hơn (better represented)
+
+```ts
+declare function create(o: object | null): void;
+
+// ok
+create({prop: 0}); 
+create(null);
+
+// error
+create(42); 
+`Argument of type '42' is not assignable to parameter of type 'object | null'`
+
+create(string);
+`Argument of type '"string"' is not assignable to parameter of type 'object | null'.`
+
+create(false);
+`Argument of type 'false' is not assignable to parameter of type 'object | null'.`
+
+create(undefined);
+`Argument of type 'undefined' is not assignable to parameter of type 'object | null'.`
+```
+
+{{< linebreak >}}
+### Type assertions
+- Đây là dạng ép kiểu trong TS
+
+- Type assertions có 2 dạng:
+  - One is the as-syntax:
+  
+  ```ts
+  let someValue: unknown = "this is a string";
+  
+  let strLength: number = (someValue as string).length;
+  ```
+
+  - and the other version is the `angle-bracket` syntax:
+  
+  ```ts
+  let someValue: unknown = "this is a string";
+  
+  let strLength: number = (<string>someValue).length;
+  ```
