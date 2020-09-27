@@ -16,3 +16,8 @@ body.dark-theme {
   --color-secondary: #7482a3;
   --border-color: rgb(35, 40, 49);
 }
+
+:not(pre)>code[class*=language-],
+pre[class*=language-] {
+  background: #252831 !important;
+}

@@ -13,7 +13,8 @@ Language & Tools:
 
 - Vscode, CLI, Git
 - HTML, CSS, SASS, Styled-component
-- Javascript, Typescript, Java, C#, C++, PHP
+- Javascript, Typescript
+- CMS (Hugo, Wordpress)
 - ReactJS, Expressjs, Nodejs
 - Mongodb, Firebase, SQLServer
 

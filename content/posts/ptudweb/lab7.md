@@ -10,4 +10,4 @@ description = ""
 showFullContent = false
 +++
 
-#### Câu 1: Dung lượng lưu trữ (disk space)?
+### Câu 1: Dung lượng lưu trữ (disk space)?

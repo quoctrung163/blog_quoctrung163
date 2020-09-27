@@ -1,6 +1,6 @@
 ### Learn Hugo
 
-#### Leson 1: Basic
+### Leson 1: Basic
 
 - install hugo:
   
@@ -21,7 +21,7 @@
   
   - hugo server
 
-#### Lesson 2: Creating & Organizing Content
+### Lesson 2: Creating & Organizing Content
 
 - create new file in content folder
   
@@ -38,13 +38,13 @@
   - -> to fix:
     - hugo new dir1/dir2/_index.md
 
-#### Lesson 3: Front Matter
+### Lesson 3: Front Matter
 
 - edit mardown file
   - author: quoctrung163
   - change date, title, etc
 
-#### Lesson 4: Archetypes
+### Lesson 4: Archetypes
 
 - is a template file for create file in folder content
 - default.md is a default in template file
@@ -54,7 +54,7 @@
   - to using template dir1
     - type: hugo new dir1/c.md
 
-#### Lesson 5: Shortcodes
+### Lesson 5: Shortcodes
 
 - are a mean to consolidate templating into small, reusable snippets that you embed directly inside of your content.
 

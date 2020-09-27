@@ -10,7 +10,7 @@ description = ""
 showFullContent = false
 +++
 
-| Lab    |  Link   |
+| Thực Hành số 1: Domain name, Hosting, Git & Docker    |  Link   |
 | --- | --- |
 | Lab 1. Hiểu về DNS    | {{< link href="../lab1" >}}here{{< /link>}} |
 |  Lab 2. Đăng ký tên miền miễn phí   |  {{< link href="../lab2" >}}here{{< /link>}}   |
@@ -22,3 +22,7 @@ showFullContent = false
 |  Lab 8. Shared hosting miễn phí  |  {{< link href="../lab8" >}}here{{< /link>}}   |
 |  Lab 9. Shared hosting có phí   |  {{< link href="../lab9" >}}here{{< /link>}}   |
 |  Lab 10. Caculator form php  |  {{< link href="../caculatorphp" >}}here{{< /link>}}   |
+
+| Thực Hành số 2: Phát triển ứng dụng web với PHP Form, If, Switch    |  Link   |
+| --- | --- |
+|  Lab 1. Caculator form php  |  {{< link href="../caculatorphp" >}}here{{< /link>}}   |

@@ -10,7 +10,7 @@ description = ""
 showFullContent = false
 +++
 
-#### I. Tìm hiểu về các loại hosting sau? Ưu và nhược điểm của mỗi loại?
+### I. Tìm hiểu về các loại hosting sau? Ưu và nhược điểm của mỗi loại?
 
 – Shared Hosting:
   - là giải pháp cho chủ website với lượng truy cập thấp

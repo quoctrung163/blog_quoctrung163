@@ -35,7 +35,7 @@
 - nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
 - fully responsive
 
-#### Built-in shortcodes
+### Built-in shortcodes
 
 - **`image`** (prop required: **`src`**; props optional: **`alt`**, **`position`** (**left** is default | center | right), **`style`**)
   - eg: `{{< image src="/img/hello.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}`
@@ -70,7 +70,7 @@
   {{< /code >}}
   ```
 
-#### Code highlighting
+### Code highlighting
 
 By default the theme is using PrismJS to color your code syntax. All you need to do is to wrap you code like this:
 
@@ -82,7 +82,7 @@ By default the theme is using PrismJS to color your code syntax. All you need to
 
 **Supported languages**: bash/shell, css, clike, javascript, apacheconf, actionscript, applescript, c, csharp, cpp, coffeescript, ruby, csp, css-extras, diff, django, docker, elixir, elm, markup-templating, erlang, fsharp, flow, git, go, graphql, less, handlebars, haskell, http, java, json, kotlin, latex, markdown, makefile, objectivec, ocaml, perl, php, php-extras, r, sql, processing, scss, python, jsx, typescript, toml, reason, textile, rust, sass, stylus, scheme, pug, swift, yaml, haml, twig, tsx, vim, visual-basic, wasm.
 
-#### Improved RSS Feed
+### Improved RSS Feed
 
 Some enhancements have been made to Hugo's [internal RSS](https://github.com/gohugoio/hugo/blob/25a6b33693992e8c6d9c35bc1e781ce3e2bca4be/tpl/tplimpl/embedded/templates/_default/rss.xml) generation code.
 
