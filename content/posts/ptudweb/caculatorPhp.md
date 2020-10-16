@@ -11,5 +11,5 @@ showFullContent = false
 +++
 
 ### Caculator PHP
-<!-- {{< iframe src="https://repl.it/@codermiyu/FaintOrderlyBoolean?lite=true" >}} -->
+{{< iframe src="https://repl.it/@codermiyu/FaintOrderlyBoolean?lite=true" >}}
 
