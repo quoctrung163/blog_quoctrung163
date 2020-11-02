@@ -21,8 +21,9 @@ showFullContent = false
 |  Lab 7. Tìm hiểu các thông số liên quan đến một web hosting   |  {{< link href="../lab7" >}}here{{< /link>}}   |
 |  Lab 8. Shared hosting miễn phí  |  {{< link href="../lab8" >}}here{{< /link>}}   |
 |  Lab 9. Shared hosting có phí   |  {{< link href="../lab9" >}}here{{< /link>}}   |
-|  Lab 10. Caculator form php  |  {{< link href="../caculatorphp" >}}here{{< /link>}}   |
 
 | Thực Hành số 2: Phát triển ứng dụng web với PHP Form, If, Switch    |  Link   |
 | --- | --- |
 |  Lab 1. Caculator form php  |  {{< link href="../caculatorphp" >}}here{{< /link>}}   |
+|  Lab 2. Chòm sao  |  {{< link href="../chomsao" >}}here{{< /link>}}   |
+|  Lab 3. Xếp hình Tam giác  |  {{< link href="../xephinhtamgiac" >}}here{{< /link>}}   |
