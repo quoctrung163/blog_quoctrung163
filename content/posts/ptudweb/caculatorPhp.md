@@ -1,5 +1,5 @@
 +++
-title = "Caculator PHP"
+title = "Lab 1. Caculator form php"
 date = "2020-09-26"
 author = "quoctrung163"
 authorTwitter = "" #do not include @
@@ -10,7 +10,7 @@ description = ""
 showFullContent = false
 +++
 
-### Caculator PHP
-- source code: https://repl.it/@codermiyu/WarlikeValidMetric
+### Lab 1. Caculator form php
+- source code: https://github.com/quoctrung163/ptudweb/tree/main/Caculator
 {{< iframe src="https://warlikevalidmetric.codermiyu.repl.co/?lite=true" >}}
 

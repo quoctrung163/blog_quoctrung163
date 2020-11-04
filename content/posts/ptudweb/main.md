@@ -27,3 +27,4 @@ showFullContent = false
 |  Lab 1. Caculator form php  |  {{< link href="../caculatorphp" >}}here{{< /link>}}   |
 |  Lab 2. Chòm sao  |  {{< link href="../chomsao" >}}here{{< /link>}}   |
 |  Lab 3. Xếp hình Tam giác  |  {{< link href="../xephinhtamgiac" >}}here{{< /link>}}   |
+|  Lab 4. ATM  |  {{< link href="../atm" >}}here{{< /link>}}   |
