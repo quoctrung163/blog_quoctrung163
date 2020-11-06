@@ -22,7 +22,7 @@ docker volume create sqlserver
 docker run -e 'ACCEPT_EULA=Y' --name sqlserver -e 'SA_PASSWORD=Password789' -p 1433:1433 -v vmssql:/var/opt/mssql -d mcr.microsoft.com/mssql/server:2019-latest
 ```
 
-- Để chạy container:
+- Để sử dụng mysql trên terminal
 ```cmd
 docker exec -it -sqlserver bash
 ```
