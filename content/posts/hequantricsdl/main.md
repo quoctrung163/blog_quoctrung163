@@ -1,6 +1,6 @@
 +++
 title = "Các bài lab môn hệ quản trị csdl"
-date = "2020-11-03"
+date = "2020-11-06"
 author = "quoctrung163"
 authorTwitter = "" #do not include @
 cover = ""
@@ -16,5 +16,5 @@ showFullContent = false
 | Lab 2. Tải và cài đặt MySQL trên máy cục bộ    | {{< link href="../lab2" >}}here{{< /link>}} |
 | Lab 3. Tải và cài MongoDB trên máy cục bộ    | {{< link href="../lab3" >}}here{{< /link>}} |
 | Lab 4. Tải và cài đặt SQL server trên Docker    | {{< link href="../lab4" >}}here{{< /link>}} |
-| Lab 5. Tải và cài đặt MySQL trên Docker    | {{< link href="../lab5" >}}here{{< /link>}} |
-| Lab 6. Tải và cài đặt MongoDB trên Docker    | {{< link href="../lab6" >}}here{{< /link>}} |
+| Lab 5. Tải và cài đặt MongoDB trên Docker    | {{< link href="../lab5" >}}here{{< /link>}} |
+| Lab 6. Tải và cài đặt MySQL trên Docker    | {{< link href="../lab6" >}}here{{< /link>}} |
