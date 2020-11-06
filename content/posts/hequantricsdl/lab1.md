@@ -1,5 +1,5 @@
 +++
-title = "Lab 1 - he quan tri csdl"
+title = "Lab 1. Tải và cài đặt SQL server trên máy cục bộ"
 date = "2020-11-03"
 author = "quoctrung163"
 authorTwitter = "" #do not include @
@@ -9,7 +9,6 @@ keywords = ["", ""]
 description = ""
 showFullContent = false
 +++
-## Lab 1. Tải và cài đặt SQL server trên máy cục bộ.
 
 ### 1. Giới thiệu về SQL Server
 - SQL Server hiện có nhiều phiên bản khác nhau. Dưới đây là danh sách các phiên bản cùng với tính năng của từng phiên bản.
@@ -28,4 +27,4 @@ showFullContent = false
 | Enterprise Evaluation	| bản SQL Server Evaluation Edition là lựa chọn tuyệt vời để dùng được mọi tính năng và có được bản cài miễn phí của SQL Server để học tập và phát triển. Phiên bản này có thời gian hết hạn là 6 tháng từ ngày cài |
 
 ### 2. Cài đặt SQLServer
-
+- {{< figure src="/img/heqtcsdl/lab1/lab1_1.png" title="lab1_1" >}}
