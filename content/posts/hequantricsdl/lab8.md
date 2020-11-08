@@ -104,5 +104,40 @@ db.getCollection('SinhVien').remove({
 })
 ```
 - {{< figure src="/img/heqtcsdl/lab8/lab8_7.png" title="lab8" >}}
+
 {{< linebreak >}}
 ### 3. MySQL
+- C (Create): tạo 10 mẫu tin cho 10 sinh viên:
+```sql
+insert into SinhVien values ('1710289', 'Phan Quốc Trung', 1999, 8, 9, 9, '1710289@dlu.edu.vn', '0349981228');
+insert into SinhVien values ('1710233', 'Đặng Trần Hữu Nhân', 1999, 5, 5, 5, '1710233@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1710196', 'Nguyễn Đăng Khoa', 1999, 7, 9, 9, '1710196@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1714234', 'Hứa Đình Doanh', 1999, 7, 9, 9, '1714234@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1710264', 'Huỳnh Lê Hữu Thành', 1999, 8, 9, 9, '1710264@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1710144', 'Nguyễn Đức Đề', 1999, 8, 9, 9, '1710144@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1710156', 'Phạm Bá Xuân Duy', 1999, 8, 9, 9, '1710156@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1710204', 'Bùi Đức Hoàng Lâm', 1999, 8, 9, 9, '1710204@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1710303', 'Phạm Hoàng Việt', 1999, 8, 9, 9, '1710303@dlu.edu.vn', '035547878');
+insert into SinhVien values ('1710285', 'Lê Anh Trí', 1999, 8, 9, 9, '1710285@dlu.edu.vn', '035547878');
+```
+{{< linebreak >}}
+
+- R (Read): đọc dữ liệu sinh viên
+```sql
+select * from SinhVien
+```
+- {{< figure src="/img/heqtcsdl/lab8/lab8_8.png" title="lab8" >}}
+
+{{< linebreak >}}
+- U (Update): Cập nhật điểm sinh viên
+```sql
+update SinhVien
+set DiemMon1=8.5
+where MSSV='1710289'
+```
+
+{{< linebreak >}}
+- D (Delete): xoá 1 sinh viên nào đó
+```sql
+delete from dbo.SinhVien where MSSV='1710289'
+```
