@@ -12,12 +12,12 @@ showFullContent = false
 
 | Thực Hành số 1: Domain name, Hosting, Git & Docker    |  Link   |
 | --- | --- |
-| Lab 1. Hiểu về DNS    | {{< link href="../lab1" >}}here{{< /link>}} |
+|  Lab 1. Hiểu về DNS    | {{< link href="../lab1" >}}here{{< /link>}} |
 |  Lab 2. Đăng ký tên miền miễn phí   |  {{< link href="../lab2" >}}here{{< /link>}}   |
 |  Lab 3. Đăng ký tên miền có phí  |  {{< link href="../lab3" >}}here{{< /link>}}   |
 |  Lab 4. Hiểu về web server   |  {{< link href="../lab4" >}}here{{< /link>}}   |
 |  Lab 5. Cài đặt và cấu hình XAMPP   |  {{< link href="../lab5" >}}here{{< /link>}}   |
-| Lab 6. Tìm hiểu về các loại hosting    | {{< link href="../lab6" >}}here{{< /link>}} |
+|  Lab 6. Tìm hiểu về các loại hosting    | {{< link href="../lab6" >}}here{{< /link>}} |
 |  Lab 7. Tìm hiểu các thông số liên quan đến một web hosting   |  {{< link href="../lab7" >}}here{{< /link>}}   |
 |  Lab 8. Shared hosting miễn phí  |  {{< link href="../lab8" >}}here{{< /link>}}   |
 |  Lab 9. Shared hosting có phí   |  {{< link href="../lab9" >}}here{{< /link>}}   |
@@ -29,3 +29,4 @@ showFullContent = false
 |  Lab 3. Xếp hình Tam giác  |  {{< link href="../xephinhtamgiac" >}}here{{< /link>}}   |
 |  Lab 4. ATM  |  {{< link href="../atm" >}}here{{< /link>}}   |
 |  Lab 5. Trắc nghiệm tính cách  |  {{< link href="../quiz" >}}here{{< /link>}}   |
+|  Lab 6. Lab Chuỗi  |  {{< link href="../lab6_1" >}}here{{< /link>}}   |
