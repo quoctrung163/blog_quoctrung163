@@ -1,5 +1,5 @@
 +++
-title = "Lab 9&Lab10"
+title = "Lab 9"
 date = "2020-11-07"
 author = "quoctrung163"
 authorTwitter = "" #do not include @
@@ -256,3 +256,5 @@ connection.query(
 );
 ```
 {{< figure src="/img/heqtcsdl/lab9-10/11.png" title="lab9" >}}
+
+Source code: https://github.com/quoctrung163/lab10_csdl
