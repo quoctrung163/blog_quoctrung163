@@ -1,6 +1,6 @@
 +++
 title = "Các bài lab môn phát triển ứng dụng web"
-date = "2020-09-22"
+date = "2020-11-27"
 author = "quoctrung163"
 authorTwitter = "quoctrung163" #do not include @
 cover = ""
