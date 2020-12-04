@@ -12,10 +12,10 @@ showFullContent = false
 
 
 - 1. source code: https://repl.it/@codermiyu/DistantItchyDemo
-{{< iframe src="https://DistantItchyDemo.codermiyu.repl.co/?lite=true" >}}
+{{< iframe2 src="https://DistantItchyDemo.codermiyu.repl.co/?lite=true" >}}
 
 - 2. source code: https://repl.it/@codermiyu/CharmingVapidQuadrilateral
-{{< iframe src="https://CharmingVapidQuadrilateral.codermiyu.repl.co/?lite=true" >}}
+{{< iframe2 src="https://CharmingVapidQuadrilateral.codermiyu.repl.co/?lite=true" >}}
 
 - 3. source code: https://repl.it/@codermiyu/ElaborateCheerfulRecords#index.php
-{{< iframe src="https://ElaborateCheerfulRecords.codermiyu.repl.co/?lite=true" >}}
+{{< iframe2 src="https://ElaborateCheerfulRecords.codermiyu.repl.co/?lite=true" >}}
