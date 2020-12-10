@@ -31,4 +31,4 @@ showFullContent = false
 |  Lab 5. Trắc nghiệm tính cách  |  {{< link href="../quiz" >}}here{{< /link>}}   |
 |  Lab 6. Lab Chuỗi  |  {{< link href="../lab6_1" >}}here{{< /link>}}   |
 |  Lab 7. Lab Math Time  |  {{< link href="../match_time" >}}here{{< /link>}}   |
-|  Lab 8. Hàm pre_match  |  {{< link href="../match_time" >}}here{{< /link>}}   |
+|  Lab 8. Hàm pre_match  |  {{< link href="../pre_match_function" >}}here{{< /link>}}   |
