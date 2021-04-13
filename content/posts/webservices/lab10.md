@@ -1,6 +1,6 @@
 +++
-title = "Lab 9 - Web service"
-date = "2021-3-29"
+title = "Lab 10 - Web service"
+date = "2021-4-10"
 author = "quoctrung163"
 authorTwitter = "quoctrung163" #do not include @
 cover = ""
@@ -10,5 +10,5 @@ description = ""
 showFullContent = false
 +++
 
-Lab 9: 
-https://github.com/quoctrung163/lab9_webservices
+Lab 10: 
+https://github.com/quoctrung163/lab10_web_services

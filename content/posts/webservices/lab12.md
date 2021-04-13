@@ -1,5 +1,5 @@
 +++
-title = "Lab 13 - Web service"
+title = "Lab 12 - Web service"
 date = "2021-3-29"
 author = "quoctrung163"
 authorTwitter = "quoctrung163" #do not include @
@@ -10,7 +10,5 @@ description = ""
 showFullContent = false
 +++
 
-- Lab 13 - Web service
-https://github.com/quoctrung163/Snack-Share
-https://snack-dev.herokuapp.com/
-api public: https://snack-dev.herokuapp.com/api/courses
+- Lab 11
+https://github.com/quoctrung163/lab12_web_services
