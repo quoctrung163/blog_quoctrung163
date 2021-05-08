@@ -12,5 +12,5 @@ showFullContent = false
 
 - Lab 13 - Web service
 https://github.com/quoctrung163/Snack-Share
-https://snack-dev.herokuapp.com/
-api public: https://snack-dev.herokuapp.com/api/courses
+https://snack-share.herokuapp.com/
+api public: https://snack-share.herokuapp.com/api/courses

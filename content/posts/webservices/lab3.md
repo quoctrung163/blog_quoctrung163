@@ -15,7 +15,8 @@ showFullContent = false
 - Request line:
 + phương thức: get 
 + url: https://www.thegioididong.com/
-+ statuscode: 304 (mặc định không sữa được, thường khi vào 1 trang web sẽ có statuscode này)
++ statuscode: 304 là chuyển hướng trang, không thay đổi được
+
 
 - Request header:
 + accept: (kiểu nội dung chấp nhận trong trang web)
