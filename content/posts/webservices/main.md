@@ -1,6 +1,6 @@
 +++
 title = "Các bài lab môn web services"
-date = "2020-11-27"
+date = "2021-05-10"
 author = "quoctrung163"
 authorTwitter = "" #do not include @
 cover = ""
@@ -19,8 +19,8 @@ showFullContent = false
 | --- | --- |
 | Lab 3 - Web service | {{< link href="../lab3" >}}link{{< /link>}} |
 | Lab 4 - Web service | {{< link href="../lab4" >}}link{{< /link>}} |
-| Lab 5 - Web service| {{< link href="../lab5" >}}link{{< /link>}} |
-| Lab 6 - Web service| {{< link href="../lab6" >}}link{{< /link>}} |
+| Lab 5 - Web service| {{< link href="../lab4" >}}link{{< /link>}} |
+| Lab 6 - Web service| {{< link href="../lab4" >}}link{{< /link>}} |
 
 | Thực hành 3&4 |  Link   |
 | --- | --- |
